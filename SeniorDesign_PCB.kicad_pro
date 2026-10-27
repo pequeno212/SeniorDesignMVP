@@ -771,7 +771,7 @@
         "uuid": "88e1ced0-9576-4565-ab29-f74bf51ccbda"
       }
     ],
-    "used_designators": "#FLG1-7,J1-21,J24,R1-85,D1-10,Y1-2,#PWR1-155,U1-16,SW1-7,C1-55,Q1-5,AE1,TSAL1-3,L1-4,F1,P1-3",
+    "used_designators": "#FLG1-7,J1-21,J24,R1-85,D1-10,Y1-2,#PWR1-155,Q1-5,U1-16,C1-55,SW1-7,AE1,TSAL1-3,L1-4,F1,P1-3",
     "variants": []
   },
   "sheets": [
@@ -798,10 +798,6 @@
     [
       "c56479bc-1a8a-4e8e-8fbe-073cb4f795b5",
       "Peripherials"
-    ],
-    [
-      "8dbcbcde-a963-4a54-aef5-5a4212c7899c",
-      "ESP32C3"
     ]
   ],
   "text_variables": {},
