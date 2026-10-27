@@ -1033,16 +1033,6 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_CS_ESP" input
-			(at 125.73 132.08 180)
-			(uuid "1e94fa68-14ff-44ca-8cc5-a96ac8eefc5e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "STM32_USB_D_N" input
 			(at 163.83 55.88 0)
 			(uuid "1dac766b-bc68-43f2-84c2-9cc15689b9b6")
@@ -1363,16 +1353,6 @@
 		(pin "I2C3_SDA" input
 			(at 87.63 35.56 0)
 			(uuid "b4f36dc3-edd7-483d-9080-7326d5bd80a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MATRIX_PWR_EN" input
-			(at 87.63 30.48 0)
-			(uuid "35de1300-edd2-4175-9706-c4b15981da8b")
 			(effects
 				(font
 					(size 1.27 1.27)

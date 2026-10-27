@@ -4663,17 +4663,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 52.07 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "7bc290a4-12dc-4358-85c2-b080b87c8047")
-	)
-	(wire
-		(pts
 			(xy 31.75 90.17) (xy 52.07 90.17)
 		)
 		(stroke
@@ -6031,17 +6020,6 @@
 			(justify left)
 		)
 		(uuid "c6d53ae4-452e-4f2c-b406-6100ebde1485")
-	)
-	(hierarchical_label "SPI_CS_ESP"
-		(shape input)
-		(at 31.75 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbf2cabb-9384-4505-b511-949240e03de0")
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape input)
