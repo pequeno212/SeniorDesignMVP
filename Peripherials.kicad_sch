@@ -1213,309 +1213,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x07"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x07"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x07_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x08_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -4142,18 +3839,6 @@
 		(uuid "2ab48b54-2585-44c8-aefd-0cb2b2cdfe1f")
 	)
 	(rectangle
-		(start 252.73 43.18)
-		(end 252.73 45.72)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "2b43bec2-62b9-4b1a-a35a-68210c8f8f8b")
-	)
-	(rectangle
 		(start 139.7 20.32)
 		(end 189.23 77.47)
 		(stroke
@@ -4204,18 +3889,6 @@
 			(type none)
 		)
 		(uuid "7901f03c-66f0-435e-81a4-2e469fe272de")
-	)
-	(rectangle
-		(start 21.59 97.79)
-		(end 128.27 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "be044d27-5357-4470-ac29-5338e0554063")
 	)
 	(text "USB-C PWR ORing\n"
 		(exclude_from_sim no)
@@ -4330,16 +4003,6 @@
 			)
 		)
 		(uuid "e8b97806-3ab7-47b9-bbb7-8f3239a37998")
-	)
-	(text "ESP32-C3 MINI headers"
-		(exclude_from_sim no)
-		(at 34.544 96.266 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fb836056-3c04-43e7-904f-62425668933e")
 	)
 	(text_box "I2C Address: 0x52"
 		(exclude_from_sim no)
@@ -4551,16 +4214,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 111.76) (xy 46.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3fa14e-4dc5-4240-b010-9152927bf4de")
-	)
-	(wire
-		(pts
 			(xy 55.88 44.45) (xy 55.88 41.91)
 		)
 		(stroke
@@ -4731,26 +4384,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 116.84) (xy 46.99 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2fe8e5-0c10-4a93-923b-8561f7222880")
-	)
-	(wire
-		(pts
-			(xy 101.6 52.07) (xy 101.6 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe0dffd-9669-453b-9c97-f132f0633191")
-	)
-	(wire
-		(pts
 			(xy 157.48 50.8) (xy 157.48 53.34)
 		)
 		(stroke
@@ -4768,16 +4401,6 @@
 			(type default)
 		)
 		(uuid "42cc88f8-5593-436c-8e7e-94a4cfddb487")
-	)
-	(wire
-		(pts
-			(xy 44.45 104.14) (xy 46.99 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4424d257-f1fc-4296-8a90-de4c689ffd44")
 	)
 	(wire
 		(pts
@@ -4861,16 +4484,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 114.3) (xy 96.52 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646c0441-aa58-4718-9eb4-21259475dd04")
-	)
-	(wire
-		(pts
 			(xy 254 66.04) (xy 254 68.58)
 		)
 		(stroke
@@ -4878,16 +4491,6 @@
 			(type default)
 		)
 		(uuid "64a4f45b-d22f-4d8e-af3d-ff499d276d4a")
-	)
-	(wire
-		(pts
-			(xy 90.17 106.68) (xy 96.52 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652337f0-c703-41f9-843b-564fb012c075")
 	)
 	(wire
 		(pts
@@ -4948,16 +4551,6 @@
 			(type default)
 		)
 		(uuid "7a9b91df-6137-434b-bcbf-f8239d5fcf7d")
-	)
-	(wire
-		(pts
-			(xy 44.45 114.3) (xy 46.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cea8e02-0421-4ac5-b0c9-ca26073e37ce")
 	)
 	(wire
 		(pts
@@ -5038,16 +4631,6 @@
 			(type default)
 		)
 		(uuid "82ffa225-3328-4139-b257-d1143acd9149")
-	)
-	(wire
-		(pts
-			(xy 90.17 104.14) (xy 96.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83adec75-29eb-47b8-95c2-221f1c210c72")
 	)
 	(wire
 		(pts
@@ -5168,16 +4751,6 @@
 			(type default)
 		)
 		(uuid "9aa5d6ea-e540-4b27-ac62-c9975ee3226e")
-	)
-	(wire
-		(pts
-			(xy 44.45 106.68) (xy 46.99 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9abe8251-e11f-4411-9f3b-9f8a2a1b686e")
 	)
 	(wire
 		(pts
@@ -5451,6 +5024,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 53.34) (xy 101.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85b2ee1-2fd2-45c9-a9f1-f3c714b45bbb")
+	)
+	(wire
+		(pts
 			(xy 64.77 52.07) (xy 64.77 34.29)
 		)
 		(stroke
@@ -5571,26 +5154,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 109.22) (xy 46.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7653559-50f1-4c6f-b315-149d80bc1d64")
-	)
-	(wire
-		(pts
-			(xy 90.17 111.76) (xy 96.52 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8836d28-35a4-4d21-80d9-6eafccd4a148")
-	)
-	(wire
-		(pts
 			(xy 163.83 29.21) (xy 163.83 31.75)
 		)
 		(stroke
@@ -5698,16 +5261,6 @@
 			(type default)
 		)
 		(uuid "f238536c-437f-4504-8cf9-7b0a47f7eaa1")
-	)
-	(wire
-		(pts
-			(xy 90.17 109.22) (xy 96.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3068ba3-6754-425f-adf2-0dbe1fa52f36")
 	)
 	(wire
 		(pts
@@ -5828,270 +5381,6 @@
 			(justify right bottom)
 		)
 		(uuid "d4b3d603-9f5d-4379-a717-60c6f7e247d0")
-	)
-	(global_label "ICC3_SDA"
-		(shape input)
-		(at 44.45 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "078489d4-9ad7-4ce8-abff-4e8e53260209")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN_PWMD"
-		(shape input)
-		(at 44.45 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18551828-d8e7-4547-829b-36b410a26f3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.5467 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBUS_ESP"
-		(shape input)
-		(at 90.17 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29bd547b-833f-496c-bf05-d165b38f915a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.6901 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_MISO"
-		(shape input)
-		(at 44.45 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38609750-5e2e-42cf-88b0-028c72b85fef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6072 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "INT_RTC"
-		(shape input)
-		(at 90.17 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ae48668-123b-403a-b3e4-8765f0375aeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.8067 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 90.17 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ce7f51a-5bd5-4bdf-a89b-46dac67f6f0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.6772 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_SCLK"
-		(shape input)
-		(at 90.17 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a995bd02-12b3-401b-8668-ba9e797add93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1458 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_MOSI"
-		(shape input)
-		(at 44.45 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aab196c6-392f-47e0-bc36-dc407f4d4233")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6072 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 90.17 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8db8f0a-dcc1-4f25-a99a-9fa6303dc5d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.3143 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C3_SCL"
-		(shape input)
-		(at 44.45 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4fd4297-deff-46c3-acdb-e2fd07f601d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6958 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI_CS_SD_CARD"
-		(shape input)
-		(at 44.45 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f08bad63-600d-40fc-83a5-d441bf120626")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6201 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(hierarchical_label "I2C3_SDA"
 		(shape input)
@@ -6430,12 +5719,6 @@
 			(uuid "26844740-89ce-491a-b52f-d3d78dc26a95")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "C41")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C41")
@@ -6515,12 +5798,6 @@
 			(uuid "3b002180-b2c1-426e-a83f-6c0c35b509e3")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R52")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R52")
@@ -6598,12 +5875,6 @@
 			(uuid "a8ee22cc-b634-4b5c-b957-692f0f60f9ce")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR084")
@@ -6681,12 +5952,6 @@
 			(uuid "8f070b6f-8c00-4dad-b23b-ae1cb3f26bc3")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR093")
@@ -6764,12 +6029,6 @@
 			(uuid "99f8e379-226c-4f70-82e8-bc5a047445a2")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0147")
@@ -6847,12 +6106,6 @@
 			(uuid "a2ff37d0-eb1d-4963-8047-956c2b468e47")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0111")
@@ -6934,12 +6187,6 @@
 			(uuid "99179310-4f08-4ee0-932e-4634c5d0d9a0")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "C46")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C46")
@@ -7021,12 +6268,6 @@
 			(uuid "e56b48e5-0e8a-44a6-995f-2cf8a20783a6")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "C25")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C25")
@@ -7128,12 +6369,6 @@
 			(uuid "bc80ff78-dd95-4e77-b3c2-ac85ac39ae3a")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "D7")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "D7")
@@ -7252,12 +6487,6 @@
 			(uuid "7f80e742-130b-47f6-a307-2e5acd85ea6e")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "J12")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "J12")
@@ -7335,12 +6564,6 @@
 			(uuid "3ec25ded-d86f-4f9e-a7ca-5542ff990d6f")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR095")
@@ -7438,12 +6661,6 @@
 			(uuid "aba4adfd-078c-4827-95d4-528653325721")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "U12")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "U12")
@@ -7523,12 +6740,6 @@
 			(uuid "65d24cf3-a324-4029-8292-049447d16c97")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R53")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R53")
@@ -7608,12 +6819,6 @@
 			(uuid "4f3d642b-4efa-460e-80d3-433f2cdf3c5c")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R49")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R49")
@@ -7691,12 +6896,6 @@
 			(uuid "bc4ec7a4-ba2c-4d3e-b5aa-54e461643cf8")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR091")
@@ -7776,12 +6975,6 @@
 			(uuid "e9f5b2a8-8fb6-4a51-b9b6-3d1e2238414a")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R46")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R46")
@@ -7863,12 +7056,6 @@
 			(uuid "1bce7419-be3f-46fb-adc4-1f719f307931")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R8")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R8")
@@ -7948,12 +7135,6 @@
 			(uuid "1993c600-1c51-4d14-8fb3-88104616231a")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R44")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R44")
@@ -8033,12 +7214,6 @@
 			(uuid "d2638662-07d0-4e0d-8199-68b86e436ee2")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R61")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R61")
@@ -8120,12 +7295,6 @@
 			(uuid "a4f70825-dae3-4a84-95f9-799bec0de08f")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R7")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R7")
@@ -8203,12 +7372,6 @@
 			(uuid "85b8d5fb-d42e-4b13-b7dd-81d60b40a239")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0115")
@@ -8310,12 +7473,6 @@
 			(uuid "ebab046f-fa8e-4d27-a73d-c4bf433c20d1")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "D8")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "D8")
@@ -8393,12 +7550,6 @@
 			(uuid "b2bbe0a2-50ae-40c4-8ac5-6ccbd57b774a")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR090")
@@ -8521,12 +7672,6 @@
 			(uuid "91b3ac65-6f15-4560-ab3a-b9b3c5e11aec")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "J14")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "J14")
@@ -8604,12 +7749,6 @@
 			(uuid "a54250ea-7d59-45b0-b6b6-5bf562057df2")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR092")
@@ -8728,12 +7867,6 @@
 			(uuid "0bfef65f-2127-44ab-ae89-23e4c966dd9c")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "Q2")
@@ -8811,12 +7944,6 @@
 			(uuid "4971b64d-66bf-423b-aa9f-f3b25f4cad50")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR096")
@@ -8894,12 +8021,6 @@
 			(uuid "a1349909-087b-4ee1-8318-89613b9892e3")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0113")
@@ -8977,12 +8098,6 @@
 			(uuid "bd2b9beb-3ed7-46e2-a657-be20ca63b4f3")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0117")
@@ -8993,7 +8108,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 55.88 0)
+		(at 101.6 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9003,7 +8118,7 @@
 		(dnp no)
 		(uuid "967ffd7b-48b5-4469-bc07-785f6cd99589")
 		(property "Reference" "#PWR088"
-			(at 101.6 62.23 0)
+			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +8129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 59.69 0)
+			(at 101.6 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9024,7 +8139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 55.88 0)
+			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9035,7 +8150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 55.88 0)
+			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +8161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 55.88 0)
+			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,12 +8175,6 @@
 			(uuid "f7571ec2-8efd-4142-adbe-2e21ac26528e")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR088")
@@ -9167,12 +8276,6 @@
 			(uuid "729e6393-9f65-48f0-a3fa-7b9f2a69b891")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "J18")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "J18")
@@ -9273,12 +8376,6 @@
 			(uuid "083f4c02-1a5f-4b98-9300-4e9a9ce01b29")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "U2")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "U2")
@@ -9358,12 +8455,6 @@
 			(uuid "a25b76d0-8221-4405-9dc6-0274b0dfa186")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "R48")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R48")
@@ -9445,12 +8536,6 @@
 			(uuid "4c19be43-ff26-4641-b52c-7a808d3b36c6")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "C24")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C24")
@@ -9532,12 +8617,6 @@
 			(uuid "01f75416-fa88-429d-9010-4ebf21c3c1b7")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "C22")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C22")
@@ -9615,12 +8694,6 @@
 			(uuid "83d66edf-a5d9-4382-a180-e6b0eafd9a8a")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR019")
@@ -9698,12 +8771,6 @@
 			(uuid "51f047dc-1c14-4610-acab-97efd71f7e32")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR086")
@@ -9781,12 +8848,6 @@
 			(uuid "785ce78e-da79-49de-9371-8c85961fb101")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR018")
@@ -9890,12 +8951,6 @@
 					(unit 1)
 				)
 			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9993,12 +9048,6 @@
 					(unit 1)
 				)
 			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -10074,12 +9123,6 @@
 			(uuid "ac0fbde0-e16f-4a89-9868-2bc37e63656f")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "C23")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C23")
@@ -10157,12 +9200,6 @@
 			(uuid "28859f5f-e89f-4db3-85be-c5cfc6c32203")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0146")
@@ -10240,12 +9277,6 @@
 			(uuid "dceab0e3-7f62-4399-8ab5-acea66a92bfa")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR094")
@@ -10323,12 +9354,6 @@
 			(uuid "79217fc8-599d-487b-a357-ba89d34b59ba")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0126")
@@ -10430,12 +9455,6 @@
 			(uuid "9f577a0a-20ff-4040-bf9e-2deb9ec29645")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "D6")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "D6")
@@ -10513,12 +9532,6 @@
 			(uuid "7310caa5-10a1-40d6-9bc8-1eb594dad00e")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#FLG04")
@@ -10600,12 +9613,6 @@
 			(uuid "f36c3a22-be46-4151-979a-b66b7d5eff31")
 		)
 		(instances
-			(project "Peripherials"
-				(path "/22d5d384-b339-428f-a273-255c68f093f7"
-					(reference "J15")
-					(unit 1)
-				)
-			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "J15")
@@ -10619,4 +9626,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
