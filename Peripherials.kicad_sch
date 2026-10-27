@@ -9890,6 +9890,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9983,6 +9989,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "J1")
 					(unit 1)
 				)
@@ -10607,5 +10619,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
